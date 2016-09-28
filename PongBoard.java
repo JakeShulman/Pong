@@ -67,7 +67,7 @@ public class PongBoard extends JPanel {
 		add(score1);
 		add(score2);
 		//Create Rectangles for Paddles and Board
-		Paddle1 = new Rectangle(25, 2, 15, 100);
+		Paddle1 = new Rectangle(25, 202, 15, 100);
 		Paddle2 = new Rectangle(970, 202, 15, 100);
 
 		Paddle2HitBox = new Rectangle(960, 202, 15, 100);
@@ -81,7 +81,7 @@ public class PongBoard extends JPanel {
 		ball = new Rectangle(xPos1, yPos1, 10, 10);
 		dX = 0.0D;
 		dY = -2.0D;
-		speed = 10;
+		speed = 14;
 		/*What happens every tick (speed ms)
 		*Moves ball by dX and dY
 		*Checks if it hit the top, bottom, side, or paddle
